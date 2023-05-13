@@ -4065,7 +4065,7 @@
 													"top": 629,
 													"width": 75,
 													"height": 20,
-													"text": "CU17-Consultar Mensajes",
+													"text": "CU20-Consultar Mensajes",
 													"wordWrap": true
 												},
 												{
@@ -4266,7 +4266,7 @@
 													"top": 853,
 													"width": 67,
 													"height": 20,
-													"text": "CU20-Eliminar Mensaje",
+													"text": "CU21-Eliminar Mensaje",
 													"wordWrap": true
 												},
 												{
@@ -11618,7 +11618,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGHn0ezAMmXIa0="
 							},
-							"name": "CU17-Consultar Mensajes"
+							"name": "CU20-Consultar Mensajes"
 						},
 						{
 							"_type": "UMLUseCase",
@@ -11626,7 +11626,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGHn0ezAMmXIa0="
 							},
-							"name": "CU20-Eliminar Mensaje"
+							"name": "CU21-Eliminar Mensaje"
 						},
 						{
 							"_type": "UMLUseCase",
@@ -11751,9 +11751,9 @@
 												"$ref": "AAAAAAGHn0yLcs08eNo="
 											},
 											"font": "Arial;10;0",
-											"left": 204.4384765625,
+											"left": 205.5615234375,
 											"top": 101,
-											"width": 71.2734375,
+											"width": 74.92578125,
 											"height": 10,
 											"text": "Módulo Principal"
 										},
@@ -11766,7 +11766,7 @@
 											"font": "Arial;10;1",
 											"left": 189,
 											"top": 101,
-											"width": 10.4384765625,
+											"width": 11.5615234375,
 											"height": 10,
 											"text": "uc"
 										}
@@ -12008,9 +12008,9 @@
 												"$ref": "AAAAAAGHoQx7py0u12E="
 											},
 											"font": "Arial;10;0",
-											"left": 226.4384765625,
+											"left": 227.5615234375,
 											"top": 76,
-											"width": 70.716796875,
+											"width": 77.15234375,
 											"height": 10,
 											"text": "Módulo Reportes"
 										},
@@ -12023,7 +12023,7 @@
 											"font": "Arial;10;1",
 											"left": 211,
 											"top": 76,
-											"width": 10.4384765625,
+											"width": 11.5615234375,
 											"height": 10,
 											"text": "uc"
 										}
