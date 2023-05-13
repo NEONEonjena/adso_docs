@@ -389,7 +389,7 @@
 											"top": 218,
 											"width": 182,
 											"height": 10,
-											"text": "+autoregistrarse(): void",
+											"text": "+registrarse(): void",
 											"horizontalAlignment": 0
 										},
 										{
@@ -4745,7 +4745,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGIAQOyGQ817+U="
 							},
-							"name": "autoregistrarse",
+							"name": "registrarse",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
