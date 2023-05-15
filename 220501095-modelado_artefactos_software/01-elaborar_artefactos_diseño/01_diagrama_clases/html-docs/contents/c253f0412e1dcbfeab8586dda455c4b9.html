@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>consultarMisMensajes</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -19,17 +19,15 @@
 
       <!-- Name Title -->
 
-      <h1>(unnamed)</h1>
+      <h1>consultarMisMensajes</h1>
 
       <!-- Type and Stereotype -->
 
       <section style="margin-top: .5em;">
         <span class="alert alert-info">
-          <span class="node-icon staruml-icon icon-UMLAssociationEnd"></span>
-          UMLAssociationEnd
+          <span class="node-icon staruml-icon icon-UMLOperation"></span>
+          UMLOperation
         </span>
-        
-          <span style="margin-left: 10px" class="alert alert-info">«»</span>
         
       </section>
 
@@ -43,19 +41,13 @@
           <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>Proyecto SisWeb</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='32fd9df542a8fe03c4fc5bf4e2fba419.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Casos de Uso</a></span>
+          <span class="label label-info"><a href='07409501d470b6a8d0c72b436ef1bcef.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Diagrama de Clases</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='f352a5335469aa23cb85fab68bdce8a9.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Módulo Usuarios</a></span>
+          <span class="label label-info"><a href='8493ea0c6c31118c4c0dba66b9fd9c52.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Mensaje</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='626f12fb29aee45c4b7e8608829279f8.html'><span class='node-icon staruml-icon icon-UMLActor'></span>Vendedor</a></span>
-        
-          <span>::</span>
-          <span class="label label-info"><a href='0ddd08bb8418244d75f303d332d6b43c.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Vendedor—CU19-Consultar mis mensajes)</a></span>
-        
-          <span>::</span>
-          <span class="label label-info"><a href='245e1045e860beee391550682a1485ac.html'><span class='node-icon staruml-icon icon-UMLAssociationEnd'></span>(AssociationEnd)</a></span>
+          <span class="label label-info"><a href='c253f0412e1dcbfeab8586dda455c4b9.html'><span class='node-icon staruml-icon icon-UMLOperation'></span>consultarMisMensajes</a></span>
         
       </section>
 
@@ -138,6 +130,26 @@
 
       <!-- Parameters -->
 
+      
+      <section>
+        <h3>Parameters</h3>
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th>Direction</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Description</th>
+          </tr>
+          
+          <tr>
+            <td>return</td>
+            <td><a href="662d8bbddb5a80a7d7cec6820e7bb7a4.html">(unnamed)</a></td>
+            <td>void </td>
+            <td></td>
+          </tr>
+          
+        </table>
+      </section>
       
 
       <!-- Diagrams -->
@@ -224,7 +236,7 @@
     
     <tr>
         <td>name</td>
-        <td></td>
+        <td>consultarMisMensajes</td>
     </tr>
     
     
@@ -232,15 +244,6 @@
     
     
     
-    
-    
-    
-    
-    
-    <tr>
-        <td>reference</td>
-        <td><a href='626f12fb29aee45c4b7e8608829279f8.html'><span class='node-icon staruml-icon icon-UMLActor'></span>Vendedor</a></td>
-    </tr>
     
     
     
@@ -248,7 +251,7 @@
     
     <tr>
         <td>stereotype</td>
-        <td></td>
+        <td><span class='label label-info'>null</span></td>
     </tr>
     
     
@@ -264,44 +267,10 @@
     
     
     
-    <tr>
-        <td>navigable</td>
-        <td>unspecified</td>
-    </tr>
-    
-    
-    
     
     
     <tr>
-        <td>aggregation</td>
-        <td>none</td>
-    </tr>
-    
-    
-    
-    
-    
-    <tr>
-        <td>multiplicity</td>
-        <td></td>
-    </tr>
-    
-    
-    
-    
-    
-    <tr>
-        <td>defaultValue</td>
-        <td></td>
-    </tr>
-    
-    
-    
-    
-    
-    <tr>
-        <td>isReadOnly</td>
+        <td>isStatic</td>
         <td><span class='label label-info'>false</span></td>
     </tr>
     
@@ -310,7 +279,7 @@
     
     
     <tr>
-        <td>isOrdered</td>
+        <td>isLeaf</td>
         <td><span class='label label-info'>false</span></td>
     </tr>
     
@@ -319,8 +288,8 @@
     
     
     <tr>
-        <td>isUnique</td>
-        <td><span class='label label-info'>false</span></td>
+        <td>featureDirection</td>
+        <td>provided</td>
     </tr>
     
     
@@ -328,8 +297,13 @@
     
     
     <tr>
-        <td>isDerived</td>
-        <td><span class='label label-info'>false</span></td>
+        <td>parameters</td>
+        <td>
+            
+            
+            <a href='662d8bbddb5a80a7d7cec6820e7bb7a4.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>(Parameter)</a>
+            
+        </td>
     </tr>
     
     
@@ -337,16 +311,7 @@
     
     
     <tr>
-        <td>isID</td>
-        <td><span class='label label-info'>false</span></td>
-    </tr>
-    
-    
-    
-    
-    
-    <tr>
-        <td>qualifiers</td>
+        <td>raisedExceptions</td>
         <td>
             
         </td>
@@ -357,9 +322,42 @@
     
     
     <tr>
-        <td>ownerAttribute</td>
-        <td><span class='label label-info'>null</span></td>
+        <td>concurrency</td>
+        <td>sequential</td>
     </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isQuery</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isAbstract</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>specification</td>
+        <td></td>
+    </tr>
+    
+    
+    
+    
+    
+    
     
     
     
@@ -372,6 +370,18 @@
       
 
       <!-- Constraints, Dependencies, Dependants -->
+
+      
+        
+        
+
+
+        
+        
+
+
+        
+        
 
       
 

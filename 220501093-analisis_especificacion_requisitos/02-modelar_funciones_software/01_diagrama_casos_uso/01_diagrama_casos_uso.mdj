@@ -1385,7 +1385,7 @@
 													"visible": false,
 													"font": "Arial;10;0",
 													"left": -24,
-													"top": 996,
+													"top": 994,
 													"height": 10
 												},
 												{
@@ -1396,10 +1396,10 @@
 													},
 													"font": "Arial;10;1",
 													"left": 312,
-													"top": 910,
+													"top": 909,
 													"width": 76,
 													"height": 20,
-													"text": "CU06-Actualizar Roles",
+													"text": "CU06-Actualizar Rol",
 													"wordWrap": true
 												},
 												{
@@ -1411,7 +1411,7 @@
 													"visible": false,
 													"font": "Arial;10;0",
 													"left": -24,
-													"top": 996,
+													"top": 994,
 													"width": 104.47265625,
 													"height": 10,
 													"text": "(from Módulo Usuarios)"
@@ -1425,14 +1425,14 @@
 													"visible": false,
 													"font": "Arial;10;0",
 													"left": -24,
-													"top": 996,
+													"top": 994,
 													"horizontalAlignment": 1,
 													"wordWrap": true
 												}
 											],
 											"font": "Arial;10;0",
 											"left": 307,
-											"top": 903,
+											"top": 902,
 											"width": 86.689453125,
 											"height": 32,
 											"stereotypeLabel": {
@@ -1460,7 +1460,7 @@
 											"visible": false,
 											"font": "Arial;10;0",
 											"left": -20,
-											"top": 570,
+											"top": 569,
 											"width": 10,
 											"height": 10
 										},
@@ -1476,7 +1476,7 @@
 											"visible": false,
 											"font": "Arial;10;0",
 											"left": -20,
-											"top": 570,
+											"top": 569,
 											"width": 10,
 											"height": 10
 										},
@@ -1492,7 +1492,7 @@
 											"visible": false,
 											"font": "Arial;10;0",
 											"left": -20,
-											"top": 570,
+											"top": 569,
 											"width": 10,
 											"height": 10
 										},
@@ -1508,7 +1508,7 @@
 											"visible": false,
 											"font": "Arial;10;0",
 											"left": -20,
-											"top": 570,
+											"top": 569,
 											"width": 10,
 											"height": 10
 										},
@@ -1524,7 +1524,7 @@
 											"visible": false,
 											"font": "Arial;10;0",
 											"left": -20,
-											"top": 570,
+											"top": 569,
 											"width": 10,
 											"height": 10
 										}
@@ -1532,7 +1532,7 @@
 									"font": "Arial;10;0",
 									"containerChangeable": true,
 									"left": 289,
-									"top": 897,
+									"top": 896,
 									"width": 122,
 									"height": 45,
 									"nameCompartment": {
@@ -1585,7 +1585,7 @@
 													},
 													"visible": false,
 													"font": "Arial;10;0",
-													"left": 16,
+													"left": 2,
 													"top": 890,
 													"height": 10
 												},
@@ -1596,11 +1596,11 @@
 														"$ref": "AAAAAAGHn24N8yEz4Fs="
 													},
 													"font": "Arial;10;1",
-													"left": 316.5,
+													"left": 309.5,
 													"top": 971,
 													"width": 67,
 													"height": 20,
-													"text": "CU07-Eliminar Roles",
+													"text": "CU07-Eliminar Rol",
 													"wordWrap": true
 												},
 												{
@@ -1611,7 +1611,7 @@
 													},
 													"visible": false,
 													"font": "Arial;10;0",
-													"left": 16,
+													"left": 2,
 													"top": 890,
 													"width": 104.47265625,
 													"height": 10,
@@ -1625,14 +1625,14 @@
 													},
 													"visible": false,
 													"font": "Arial;10;0",
-													"left": 16,
+													"left": 2,
 													"top": 890,
 													"horizontalAlignment": 1,
 													"wordWrap": true
 												}
 											],
 											"font": "Arial;10;0",
-											"left": 311.5,
+											"left": 304.5,
 											"top": 964,
 											"width": 78.3544921875,
 											"height": 32,
@@ -1660,6 +1660,7 @@
 											},
 											"visible": false,
 											"font": "Arial;10;0",
+											"left": -7,
 											"top": 517,
 											"width": 10,
 											"height": 10
@@ -1675,6 +1676,7 @@
 											},
 											"visible": false,
 											"font": "Arial;10;0",
+											"left": -7,
 											"top": 517,
 											"width": 10,
 											"height": 10
@@ -1690,6 +1692,7 @@
 											},
 											"visible": false,
 											"font": "Arial;10;0",
+											"left": -7,
 											"top": 517,
 											"width": 10,
 											"height": 10
@@ -1705,6 +1708,7 @@
 											},
 											"visible": false,
 											"font": "Arial;10;0",
+											"left": -7,
 											"top": 517,
 											"width": 10,
 											"height": 10
@@ -1720,6 +1724,7 @@
 											},
 											"visible": false,
 											"font": "Arial;10;0",
+											"left": -7,
 											"top": 517,
 											"width": 10,
 											"height": 10
@@ -1727,7 +1732,7 @@
 									],
 									"font": "Arial;10;0",
 									"containerChangeable": true,
-									"left": 295,
+									"left": 288,
 									"top": 958,
 									"width": 110,
 									"height": 45,
@@ -4185,7 +4190,7 @@
 													"top": 483,
 													"width": 73,
 													"height": 20,
-													"text": "CU18-Crear Mensaje Perfil",
+													"text": "CU18-Crear Mensaje",
 													"wordWrap": true
 												},
 												{
@@ -5930,7 +5935,7 @@
 													"top": 422,
 													"width": 57,
 													"height": 20,
-													"text": "CU15-Editar su Perfil",
+													"text": "CU15-Editar Perfil",
 													"wordWrap": true
 												},
 												{
@@ -7198,7 +7203,7 @@
 											"visible": false,
 											"font": "Arial;10;0",
 											"left": 195,
-											"top": 841,
+											"top": 840,
 											"height": 10,
 											"alpha": 1.5707963267948966,
 											"distance": 15,
@@ -7219,7 +7224,7 @@
 											"visible": null,
 											"font": "Arial;10;0",
 											"left": 200,
-											"top": 827,
+											"top": 826,
 											"height": 10,
 											"alpha": 1.5707963267948966,
 											"distance": 30,
@@ -7240,7 +7245,7 @@
 											"visible": false,
 											"font": "Arial;10;0",
 											"left": 184,
-											"top": 870,
+											"top": 869,
 											"height": 10,
 											"alpha": -1.5707963267948966,
 											"distance": 15,
@@ -7344,7 +7349,7 @@
 											"visible": false,
 											"font": "Arial;10;0",
 											"left": 271,
-											"top": 855,
+											"top": 854,
 											"height": 10,
 											"alpha": -0.7853981633974483,
 											"distance": 40,
@@ -7364,7 +7369,7 @@
 											"visible": false,
 											"font": "Arial;10;0",
 											"left": 263,
-											"top": 896,
+											"top": 895,
 											"height": 10,
 											"alpha": 0.5235987755982988,
 											"distance": 25,
@@ -7411,7 +7416,7 @@
 										"$ref": "AAAAAAGHn0w/0M0UxbI="
 									},
 									"lineStyle": 1,
-									"points": "92:825;288:897",
+									"points": "92:825;288:896",
 									"showVisibility": true,
 									"nameLabel": {
 										"$ref": "AAAAAAGIF1e/twrRiG4="
@@ -7469,7 +7474,7 @@
 											},
 											"visible": false,
 											"font": "Arial;10;0",
-											"left": 207,
+											"left": 204,
 											"top": 876,
 											"height": 10,
 											"alpha": 1.5707963267948966,
@@ -7490,7 +7495,7 @@
 											},
 											"visible": null,
 											"font": "Arial;10;0",
-											"left": 215,
+											"left": 212,
 											"top": 863,
 											"height": 10,
 											"alpha": 1.5707963267948966,
@@ -7511,7 +7516,7 @@
 											},
 											"visible": false,
 											"font": "Arial;10;0",
-											"left": 192,
+											"left": 189,
 											"top": 901,
 											"height": 10,
 											"alpha": -1.5707963267948966,
@@ -7533,7 +7538,7 @@
 											"visible": false,
 											"font": "Arial;10;0",
 											"left": 121,
-											"top": 826,
+											"top": 827,
 											"height": 10,
 											"alpha": 0.5235987755982988,
 											"distance": 30,
@@ -7554,7 +7559,7 @@
 											"visible": false,
 											"font": "Arial;10;0",
 											"left": 130,
-											"top": 815,
+											"top": 817,
 											"height": 10,
 											"alpha": 0.7853981633974483,
 											"distance": 40,
@@ -7575,7 +7580,7 @@
 											"visible": false,
 											"font": "Arial;10;0",
 											"left": 104,
-											"top": 847,
+											"top": 848,
 											"height": 10,
 											"alpha": -0.5235987755982988,
 											"distance": 25,
@@ -7595,7 +7600,7 @@
 											},
 											"visible": false,
 											"font": "Arial;10;0",
-											"left": 294,
+											"left": 288,
 											"top": 925,
 											"height": 10,
 											"alpha": -0.5235987755982988,
@@ -7615,7 +7620,7 @@
 											},
 											"visible": false,
 											"font": "Arial;10;0",
-											"left": 298,
+											"left": 293,
 											"top": 913,
 											"height": 10,
 											"alpha": -0.7853981633974483,
@@ -7635,7 +7640,7 @@
 											},
 											"visible": false,
 											"font": "Arial;10;0",
-											"left": 284,
+											"left": 278,
 											"top": 951,
 											"height": 10,
 											"alpha": 0.5235987755982988,
@@ -7683,7 +7688,7 @@
 										"$ref": "AAAAAAGHn0w/0M0UxbI="
 									},
 									"lineStyle": 1,
-									"points": "92:831;309:957",
+									"points": "92:832;303:957",
 									"showVisibility": true,
 									"nameLabel": {
 										"$ref": "AAAAAAGIF1fPshEU5CE="
@@ -8035,7 +8040,7 @@
 													"top": 544,
 													"width": 75,
 													"height": 20,
-													"text": "CU19-Consultar sus mensajes",
+													"text": "CU19-Consultar mis mensajes",
 													"wordWrap": true
 												},
 												{
@@ -12112,7 +12117,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGHn0ezAMmXIa0="
 							},
-							"name": "CU06-Actualizar Roles"
+							"name": "CU06-Actualizar Rol"
 						},
 						{
 							"_type": "UMLUseCase",
@@ -12120,7 +12125,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGHn0ezAMmXIa0="
 							},
-							"name": "CU07-Eliminar Roles"
+							"name": "CU07-Eliminar Rol"
 						},
 						{
 							"_type": "UMLUseCase",
@@ -12714,7 +12719,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGHn0ezAMmXIa0="
 							},
-							"name": "CU18-Crear Mensaje Perfil"
+							"name": "CU18-Crear Mensaje"
 						},
 						{
 							"_type": "UMLActor",
@@ -12759,7 +12764,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGHn0ezAMmXIa0="
 							},
-							"name": "CU15-Editar su Perfil"
+							"name": "CU15-Editar Perfil"
 						},
 						{
 							"_type": "UMLUseCase",
@@ -12767,7 +12772,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGHn0ezAMmXIa0="
 							},
-							"name": "CU19-Consultar sus mensajes"
+							"name": "CU19-Consultar mis mensajes"
 						}
 					]
 				},
