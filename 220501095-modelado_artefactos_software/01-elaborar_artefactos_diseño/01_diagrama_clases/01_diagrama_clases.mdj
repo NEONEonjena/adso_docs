@@ -3216,6 +3216,23 @@
 										},
 										{
 											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGIIaDotosJfVE=",
+											"_parent": {
+												"$ref": "AAAAAAGIATYqOz2VM28="
+											},
+											"model": {
+												"$ref": "AAAAAAGIIaDodosGYaw="
+											},
+											"font": "Arial;10;0",
+											"left": 61,
+											"top": 323,
+											"width": 135.3271484375,
+											"height": 10,
+											"text": "-mensajePara: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
 											"_id": "AAAAAAGIAT6uwH8ipdE=",
 											"_parent": {
 												"$ref": "AAAAAAGIATYqOz2VM28="
@@ -3225,7 +3242,7 @@
 											},
 											"font": "Arial;10;0",
 											"left": 61,
-											"top": 323,
+											"top": 335,
 											"width": 135.3271484375,
 											"height": 10,
 											"text": "-mensajeAsunto: String",
@@ -3242,7 +3259,7 @@
 											},
 											"font": "Arial;10;0",
 											"left": 61,
-											"top": 335,
+											"top": 347,
 											"width": 135.3271484375,
 											"height": 10,
 											"text": "-mensajeDescripción: String",
@@ -3253,7 +3270,7 @@
 									"left": 56,
 									"top": 294,
 									"width": 145.3271484375,
-									"height": 56
+									"height": 68
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -3276,7 +3293,7 @@
 											},
 											"font": "Arial;10;0",
 											"left": 61,
-											"top": 355,
+											"top": 367,
 											"width": 135.3271484375,
 											"height": 10,
 											"text": "+crearMensajeUsuario(): void",
@@ -3347,7 +3364,7 @@
 											},
 											"font": "Arial;10;0",
 											"left": 61,
-											"top": 367,
+											"top": 379,
 											"width": 135.3271484375,
 											"height": 10,
 											"text": "+crearMensaje(): void",
@@ -3364,7 +3381,7 @@
 											},
 											"font": "Arial;10;0",
 											"left": 61,
-											"top": 379,
+											"top": 391,
 											"width": 135.3271484375,
 											"height": 10,
 											"text": "+consultarMensajes(): void",
@@ -3399,7 +3416,7 @@
 											},
 											"font": "Arial;10;0",
 											"left": 61,
-											"top": 391,
+											"top": 403,
 											"width": 135.3271484375,
 											"height": 10,
 											"text": "+consultarMisMensajes(): void",
@@ -3416,7 +3433,7 @@
 											},
 											"font": "Arial;10;0",
 											"left": 61,
-											"top": 403,
+											"top": 415,
 											"width": 135.3271484375,
 											"height": 10,
 											"text": "+eliminarMensaje(): void",
@@ -3425,7 +3442,7 @@
 									],
 									"font": "Arial;10;0",
 									"left": 56,
-									"top": 350,
+									"top": 362,
 									"width": 145.3271484375,
 									"height": 68
 								},
@@ -3467,7 +3484,7 @@
 							"left": 56,
 							"top": 272,
 							"width": 145.3271484375,
-							"height": 146,
+							"height": 158,
 							"nameCompartment": {
 								"$ref": "AAAAAAGIATYqOz2QDS4="
 							},
@@ -7525,6 +7542,16 @@
 							"name": "mensajeFecha",
 							"visibility": "private",
 							"type": "Date"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGIIaDodosGYaw=",
+							"_parent": {
+								"$ref": "AAAAAAGIATYqOj2NtSU="
+							},
+							"name": "mensajePara",
+							"visibility": "private",
+							"type": "String"
 						},
 						{
 							"_type": "UMLAttribute",
