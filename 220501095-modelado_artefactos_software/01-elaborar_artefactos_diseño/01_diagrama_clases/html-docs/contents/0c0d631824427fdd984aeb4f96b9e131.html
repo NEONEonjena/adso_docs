@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Vendedor</title>
+    <title>Employee</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -19,7 +19,7 @@
 
       <!-- Name Title -->
 
-      <h1>Vendedor</h1>
+      <h1>Employee</h1>
 
       <!-- Type and Stereotype -->
 
@@ -44,7 +44,7 @@
           <span class="label label-info"><a href='07409501d470b6a8d0c72b436ef1bcef.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Diagrama de Clases</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='0c0d631824427fdd984aeb4f96b9e131.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Vendedor</a></span>
+          <span class="label label-info"><a href='0c0d631824427fdd984aeb4f96b9e131.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Employee</a></span>
         
       </section>
 
@@ -86,7 +86,7 @@
     <h3>Generalized Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='bb23052bbfb6cf013d5f4e7b431a2999.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Credencial</a></li>
+        <li><a href='bb23052bbfb6cf013d5f4e7b431a2999.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Credential</a></li>
         
     </ul>
 </section>
@@ -95,15 +95,6 @@
 
         
         
-<section class="element-list">
-    <h3>Specialized Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='310119eaf8f5a2cb3ee0c62ea8b22dab.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Administrador</a></li>
-        
-    </ul>
-</section>
-
 
 
         
@@ -162,7 +153,7 @@
           
           <tr>
             <td>protected</td>
-            <td><a href="2ee24006a737876cbb57694b4a4a6a66.html">salario</a></td>
+            <td><a href="2ee24006a737876cbb57694b4a4a6a66.html">employeeSalary</a></td>
             <td>Float </td>
             <td></td>
           </tr>
@@ -215,31 +206,37 @@
           
           <tr>
             <td>public</td>
-            <td><a href="94a6d783af243264ec56217ceab05929.html">crearVendedor(): void</a></td>
+            <td><a href="3f0eba63f6de012c6b6f3e642c876905.html">createAdmin(): void</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="f944fb91ed9de3dd90b5c525bdaedb72.html">ConsultarUsuario(): void</a></td>
+            <td><a href="94a6d783af243264ec56217ceab05929.html">createSeller(): void</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="c2130143517bb6090196523e5610312e.html">actualizarUsuario(): void</a></td>
+            <td><a href="f944fb91ed9de3dd90b5c525bdaedb72.html">readUser(): void</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="87c85cb07fa32807178d871babb859b3.html">generarReporteUsuarioImpreso(): void</a></td>
+            <td><a href="c2130143517bb6090196523e5610312e.html">updateUser(): void</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="7c552a7035e6ff199eb7cdb305d701f0.html">generarReporteUsuarioGrafico(): void</a></td>
+            <td><a href="87c85cb07fa32807178d871babb859b3.html">printedUserReport(): void</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="7c552a7035e6ff199eb7cdb305d701f0.html">graphicUserReport(): void</a></td>
             <td></td>
           </tr>
           
@@ -343,7 +340,7 @@
     
     <tr>
         <td>name</td>
-        <td>Vendedor</td>
+        <td>Employee</td>
     </tr>
     
     
@@ -450,11 +447,9 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='f7b915f991cc4e480873d7f611b28648.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Pedido—Vendedor)</a></li>
+        <li><a href='f7b915f991cc4e480873d7f611b28648.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Order—Employee)</a></li>
         
-        <li><a href='3397972cd7f35b4dcafe457b327d99a4.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Vendedor→Credencial)</a></li>
-        
-        <li><a href='93094b84cc9ddeead0a8d006aa7d48c5.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Administrador→Vendedor)</a></li>
+        <li><a href='3397972cd7f35b4dcafe457b327d99a4.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Employee→Credential)</a></li>
         
     </ul>
 </section>
@@ -469,7 +464,7 @@
     <h3>Owned Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='3397972cd7f35b4dcafe457b327d99a4.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Vendedor→Credencial)</a></li>
+        <li><a href='3397972cd7f35b4dcafe457b327d99a4.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Employee→Credential)</a></li>
         
     </ul>
 </section>

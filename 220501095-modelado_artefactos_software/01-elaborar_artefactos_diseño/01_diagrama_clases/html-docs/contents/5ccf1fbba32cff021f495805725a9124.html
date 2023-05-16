@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Compra</title>
+    <title>Buy</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -19,7 +19,7 @@
 
       <!-- Name Title -->
 
-      <h1>Compra</h1>
+      <h1>Buy</h1>
 
       <!-- Type and Stereotype -->
 
@@ -44,7 +44,7 @@
           <span class="label label-info"><a href='07409501d470b6a8d0c72b436ef1bcef.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Diagrama de Clases</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='5ccf1fbba32cff021f495805725a9124.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Compra</a></span>
+          <span class="label label-info"><a href='5ccf1fbba32cff021f495805725a9124.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Buy</a></span>
         
       </section>
 
@@ -144,49 +144,70 @@
           
           <tr>
             <td>private</td>
-            <td><a href="15302f897e1dbc96889644d9893c16b0.html">compraCod</a></td>
+            <td><a href="15302f897e1dbc96889644d9893c16b0.html">buyCode</a></td>
             <td>String </td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
-            <td><a href="f24728824631af05b3d0341e33bcdaac.html">compraFecha</a></td>
+            <td><a href="f24728824631af05b3d0341e33bcdaac.html">buyDate</a></td>
             <td>Date </td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
-            <td><a href="9f6def81167d67f208c7c73634b939e6.html">compraPrecioProducto</a></td>
+            <td><a href="11f44e2a0de94a1b62f059cfe5e1ea6a.html">productCode</a></td>
+            <td>String </td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="9f6def81167d67f208c7c73634b939e6.html">productPriceBuy</a></td>
             <td>Float </td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
-            <td><a href="d0e527a74ec3b398c248c44c1b8ffbf5.html">compraCantProductos</a></td>
+            <td><a href="54c6f38ca5fe74b835f3a6460e1445db.html">productIvaBuy</a></td>
+            <td>Float </td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="d0e527a74ec3b398c248c44c1b8ffbf5.html">productQuantityBuy</a></td>
             <td>Int </td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
-            <td><a href="f5aab6d046c7a26b2a6fbff9265f8be9.html">compraIva</a></td>
+            <td><a href="b88229a0dd027995e8459dec0de4964c.html">buyPartial</a></td>
             <td>Float </td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
-            <td><a href="8d0c81abfa9417da92225603fd470bf5.html">compraTotal</a></td>
+            <td><a href="f5aab6d046c7a26b2a6fbff9265f8be9.html">buyIva</a></td>
             <td>Float </td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
-            <td><a href="3a084cd7a2addf27b02e69fc476eec7e.html">compraFactura</a></td>
+            <td><a href="8d0c81abfa9417da92225603fd470bf5.html">buyTotal</a></td>
+            <td>Float </td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="3a084cd7a2addf27b02e69fc476eec7e.html">buyInvoice</a></td>
             <td>String </td>
             <td></td>
           </tr>
@@ -209,25 +230,25 @@
           
           <tr>
             <td>public</td>
-            <td><a href="09712812afbca253c2e3cadafbda4e49.html">crearCompra(): void</a></td>
+            <td><a href="09712812afbca253c2e3cadafbda4e49.html">createBuy(): void</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="caea9461307c07953666d3a16aea77fb.html">consultarCompras(): void</a></td>
+            <td><a href="caea9461307c07953666d3a16aea77fb.html">readBuy(): void</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="45efc62c7bfb6023129fb963e85a68d5.html">actualizarCompra(): void</a></td>
+            <td><a href="45efc62c7bfb6023129fb963e85a68d5.html">updateBuy(): void</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="868040c5ed451ee330d19c25da801252.html">eliminarCompra(): void</a></td>
+            <td><a href="868040c5ed451ee330d19c25da801252.html">deleteBuy(): void</a></td>
             <td></td>
           </tr>
           
@@ -331,7 +352,7 @@
     
     <tr>
         <td>name</td>
-        <td>Compra</td>
+        <td>Buy</td>
     </tr>
     
     
@@ -438,7 +459,7 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='5ed15f0e2ee624f5ff617adfd6fd5040.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Producto—Compra)</a></li>
+        <li><a href='bc6281ca7a6ce8e5f2ed3efd1f6bf0ed.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Buy—Product)</a></li>
         
     </ul>
 </section>
@@ -449,6 +470,15 @@
 
       
       
+<section class="element-list">
+    <h3>Owned Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='bc6281ca7a6ce8e5f2ed3efd1f6bf0ed.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Buy—Product)</a></li>
+        
+    </ul>
+</section>
+
 
 
       <!-- Image Map Resizer (https://github.com/davidjbradshaw/image-map-resizer) -->

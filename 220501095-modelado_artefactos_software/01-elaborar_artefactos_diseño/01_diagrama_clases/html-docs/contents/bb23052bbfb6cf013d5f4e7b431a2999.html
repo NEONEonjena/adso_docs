@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Credencial</title>
+    <title>Credential</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -19,7 +19,7 @@
 
       <!-- Name Title -->
 
-      <h1>Credencial</h1>
+      <h1>Credential</h1>
 
       <!-- Type and Stereotype -->
 
@@ -44,7 +44,7 @@
           <span class="label label-info"><a href='07409501d470b6a8d0c72b436ef1bcef.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Diagrama de Clases</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='bb23052bbfb6cf013d5f4e7b431a2999.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Credencial</a></span>
+          <span class="label label-info"><a href='bb23052bbfb6cf013d5f4e7b431a2999.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Credential</a></span>
         
       </section>
 
@@ -86,7 +86,7 @@
     <h3>Generalized Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='d11e2dff8c770332a9ee56fea319db6e.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Usuario</a></li>
+        <li><a href='d11e2dff8c770332a9ee56fea319db6e.html'><span class='node-icon staruml-icon icon-UMLClass'></span>User</a></li>
         
     </ul>
 </section>
@@ -99,9 +99,9 @@
     <h3>Specialized Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='003dc9ecac491bdfce8d41a7bf964e6c.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Cliente</a></li>
+        <li><a href='003dc9ecac491bdfce8d41a7bf964e6c.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Customer</a></li>
         
-        <li><a href='0c0d631824427fdd984aeb4f96b9e131.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Vendedor</a></li>
+        <li><a href='0c0d631824427fdd984aeb4f96b9e131.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Employee</a></li>
         
     </ul>
 </section>
@@ -164,35 +164,35 @@
           
           <tr>
             <td>protected</td>
-            <td><a href="f6c138f33bb423acdd756d165cbe13de.html">credencialFoto</a></td>
+            <td><a href="f6c138f33bb423acdd756d165cbe13de.html">credentialPhoto</a></td>
             <td>String </td>
             <td></td>
           </tr>
           
           <tr>
             <td>protected</td>
-            <td><a href="d555e670021462bceeef4484a8520620.html">credencialIdentificacion</a></td>
+            <td><a href="d555e670021462bceeef4484a8520620.html">credentialId</a></td>
             <td>String </td>
             <td></td>
           </tr>
           
           <tr>
             <td>protected</td>
-            <td><a href="85e1194c40b2ea6f59c1e1aa4a15ef39.html">credencialFechaIngreso</a></td>
+            <td><a href="85e1194c40b2ea6f59c1e1aa4a15ef39.html">credentialStartDate</a></td>
             <td>Date </td>
             <td></td>
           </tr>
           
           <tr>
             <td>protected</td>
-            <td><a href="75a7330b87fe382f80696434e2ebb795.html">credencialContrasena</a></td>
+            <td><a href="75a7330b87fe382f80696434e2ebb795.html">credentialPass</a></td>
             <td>String </td>
             <td></td>
           </tr>
           
           <tr>
             <td>protected</td>
-            <td><a href="de7e3d09d77fd0485d0ab3ca45d25e4c.html">credencialEstado</a></td>
+            <td><a href="de7e3d09d77fd0485d0ab3ca45d25e4c.html">credentialStatus</a></td>
             <td>Boolean </td>
             <td></td>
           </tr>
@@ -227,19 +227,19 @@
           
           <tr>
             <td>public</td>
-            <td><a href="f5f38c4b7df82230b362faf343afd639.html">iniciarSesion(): void</a></td>
+            <td><a href="f5f38c4b7df82230b362faf343afd639.html">login(): void</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="e837c518b7f094d578a14248d5980254.html">cerrarSesion(): void</a></td>
+            <td><a href="e837c518b7f094d578a14248d5980254.html">logout(): void</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="cdcdc8959dc3785d5ffbff898239584e.html">recuperarContrasena(): void</a></td>
+            <td><a href="cdcdc8959dc3785d5ffbff898239584e.html">forgotLogin(): void</a></td>
             <td></td>
           </tr>
           
@@ -257,13 +257,13 @@
           
           <tr>
             <td>public</td>
-            <td><a href="fbb1df4a64e8a33de65ea1c4043fcf3d.html">registrarse(): void</a></td>
+            <td><a href="fbb1df4a64e8a33de65ea1c4043fcf3d.html">register(): void</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="32c9821e3afc3eac9d4dd165acf6c476.html">editarPerfil(): void</a></td>
+            <td><a href="32c9821e3afc3eac9d4dd165acf6c476.html">editProfile(): void</a></td>
             <td></td>
           </tr>
           
@@ -367,7 +367,7 @@
     
     <tr>
         <td>name</td>
-        <td>Credencial</td>
+        <td>Credential</td>
     </tr>
     
     
@@ -474,11 +474,11 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='6d0d3e71325025d46b5de9da6898e15e.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Credencial→Usuario)</a></li>
+        <li><a href='6d0d3e71325025d46b5de9da6898e15e.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Credential→User)</a></li>
         
-        <li><a href='95563bb35935c1f27d0c5a0d294446ac.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Cliente→Credencial)</a></li>
+        <li><a href='95563bb35935c1f27d0c5a0d294446ac.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Customer→Credential)</a></li>
         
-        <li><a href='3397972cd7f35b4dcafe457b327d99a4.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Vendedor→Credencial)</a></li>
+        <li><a href='3397972cd7f35b4dcafe457b327d99a4.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Employee→Credential)</a></li>
         
     </ul>
 </section>
@@ -493,7 +493,7 @@
     <h3>Owned Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='6d0d3e71325025d46b5de9da6898e15e.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Credencial→Usuario)</a></li>
+        <li><a href='6d0d3e71325025d46b5de9da6898e15e.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Credential→User)</a></li>
         
     </ul>
 </section>

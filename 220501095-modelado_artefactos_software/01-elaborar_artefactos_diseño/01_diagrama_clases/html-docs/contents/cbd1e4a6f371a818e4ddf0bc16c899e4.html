@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Pedido</title>
+    <title>Order</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -19,7 +19,7 @@
 
       <!-- Name Title -->
 
-      <h1>Pedido</h1>
+      <h1>Order</h1>
 
       <!-- Type and Stereotype -->
 
@@ -44,7 +44,7 @@
           <span class="label label-info"><a href='07409501d470b6a8d0c72b436ef1bcef.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Diagrama de Clases</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='cbd1e4a6f371a818e4ddf0bc16c899e4.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Pedido</a></span>
+          <span class="label label-info"><a href='cbd1e4a6f371a818e4ddf0bc16c899e4.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Order</a></span>
         
       </section>
 
@@ -144,77 +144,84 @@
           
           <tr>
             <td>private</td>
-            <td><a href="f3717e2055ce05a6f5672513f4423bf0.html">pedidoCod</a></td>
+            <td><a href="f3717e2055ce05a6f5672513f4423bf0.html">orderCode</a></td>
             <td>String </td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
-            <td><a href="7500c4a9107fccd8600a9d8e55b26433.html">clienteCod</a></td>
+            <td><a href="7500c4a9107fccd8600a9d8e55b26433.html">customerCode</a></td>
             <td>String </td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
-            <td><a href="d88756fdebd70c6d6e4b03ebbe31c341.html">vendedorCod</a></td>
+            <td><a href="d88756fdebd70c6d6e4b03ebbe31c341.html">sellerCode</a></td>
             <td>String </td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
-            <td><a href="73161aa4853281ed57424441ccb9f5dd.html">pedidoFecha</a></td>
+            <td><a href="73161aa4853281ed57424441ccb9f5dd.html">orderDate</a></td>
             <td>Date </td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
-            <td><a href="d1351b9f4a86fe0000ab626cf1a2daab.html">pedidoCiudad</a></td>
+            <td><a href="d1351b9f4a86fe0000ab626cf1a2daab.html">orderCity</a></td>
             <td>String </td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
-            <td><a href="00b0db4b61c6e4883b69af80aaf70530.html">pedidoDirección</a></td>
+            <td><a href="00b0db4b61c6e4883b69af80aaf70530.html">orderAddress</a></td>
             <td>String </td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
-            <td><a href="1ec2aabb6a35b423f11022cf7e70c08b.html">pedidoCantProductos</a></td>
+            <td><a href="085797132ec13108c7ef9f93ad86cb4d.html">productCode</a></td>
+            <td>String </td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="1ec2aabb6a35b423f11022cf7e70c08b.html">productQuantityOrder</a></td>
             <td>Int </td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
-            <td><a href="1a954983827a03c665cc2b0bbc2bc92d.html">pedidoParcial</a></td>
+            <td><a href="1a954983827a03c665cc2b0bbc2bc92d.html">orderPartial</a></td>
             <td>Float </td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
-            <td><a href="02b1b4697528388f18c02599c02e6543.html">pedidoIva</a></td>
+            <td><a href="02b1b4697528388f18c02599c02e6543.html">orderIva</a></td>
             <td>Float </td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
-            <td><a href="2e8839126ba9282cba08473f4fa0cc5b.html">pedidoTotal</a></td>
+            <td><a href="2e8839126ba9282cba08473f4fa0cc5b.html">orderTotal</a></td>
             <td>Float </td>
             <td></td>
           </tr>
           
           <tr>
             <td>private</td>
-            <td><a href="5f8d753069efd299a7bffa8ba1b478b7.html">pedidoEstado</a></td>
+            <td><a href="5f8d753069efd299a7bffa8ba1b478b7.html">orderStatus</a></td>
             <td>String </td>
             <td></td>
           </tr>
@@ -237,25 +244,25 @@
           
           <tr>
             <td>public</td>
-            <td><a href="f04ad15d67f3cace33698a4eb854c4bc.html">crearPedido(): void</a></td>
+            <td><a href="f04ad15d67f3cace33698a4eb854c4bc.html">createOrder(): void</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="4820525f4e6810398b2c2dc3943b5dae.html">consultarPedidos(): void</a></td>
+            <td><a href="4820525f4e6810398b2c2dc3943b5dae.html">readOrder(): void</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="5e6cc228cc6495d4d920093daf0cc17d.html">actualizarPedido(): void</a></td>
+            <td><a href="5e6cc228cc6495d4d920093daf0cc17d.html">updateOrder(): void</a></td>
             <td></td>
           </tr>
           
           <tr>
             <td>public</td>
-            <td><a href="a0177acf249708a2fb62c6df226a7194.html">eliminarPedido(): void</a></td>
+            <td><a href="a0177acf249708a2fb62c6df226a7194.html">deleteOrder(): void</a></td>
             <td></td>
           </tr>
           
@@ -359,7 +366,7 @@
     
     <tr>
         <td>name</td>
-        <td>Pedido</td>
+        <td>Order</td>
     </tr>
     
     
@@ -466,11 +473,11 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='77874f9855f99cde82754620d2342cf3.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Pedido—Cliente)</a></li>
+        <li><a href='77874f9855f99cde82754620d2342cf3.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Order—Customer)</a></li>
         
-        <li><a href='f7b915f991cc4e480873d7f611b28648.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Pedido—Vendedor)</a></li>
+        <li><a href='f7b915f991cc4e480873d7f611b28648.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Order—Employee)</a></li>
         
-        <li><a href='f2b902427eadaf4696744832625ae78d.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Producto—Pedido)</a></li>
+        <li><a href='0d628c261c87baf8fc80ecd54311fad7.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Order—Product)</a></li>
         
     </ul>
 </section>
@@ -485,9 +492,11 @@
     <h3>Owned Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='77874f9855f99cde82754620d2342cf3.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Pedido—Cliente)</a></li>
+        <li><a href='77874f9855f99cde82754620d2342cf3.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Order—Customer)</a></li>
         
-        <li><a href='f7b915f991cc4e480873d7f611b28648.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Pedido—Vendedor)</a></li>
+        <li><a href='f7b915f991cc4e480873d7f611b28648.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Order—Employee)</a></li>
+        
+        <li><a href='0d628c261c87baf8fc80ecd54311fad7.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Order—Product)</a></li>
         
     </ul>
 </section>
