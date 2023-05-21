@@ -492,7 +492,7 @@
 											"top": 55.5,
 											"width": 84,
 											"height": 10,
-											"text": "CU03-forgotLogin",
+											"text": "CU02-forgotLogin",
 											"wordWrap": true
 										},
 										{
@@ -788,7 +788,7 @@
 											"top": 107.5,
 											"width": 59,
 											"height": 10,
-											"text": "CU02-logout",
+											"text": "CU03-logout",
 											"wordWrap": true
 										},
 										{
@@ -13451,19 +13451,11 @@
 				},
 				{
 					"_type": "UMLUseCase",
-					"_id": "AAAAAAGHn1EgAdQ6mu4=",
-					"_parent": {
-						"$ref": "AAAAAAGHn0ezAMmXIa0="
-					},
-					"name": "CU02-logout"
-				},
-				{
-					"_type": "UMLUseCase",
 					"_id": "AAAAAAGHn06SeM7deig=",
 					"_parent": {
 						"$ref": "AAAAAAGHn0ezAMmXIa0="
 					},
-					"name": "CU03-forgotLogin",
+					"name": "CU02-forgotLogin",
 					"ownedElements": [
 						{
 							"_type": "UMLExtend",
@@ -13479,6 +13471,14 @@
 							}
 						}
 					]
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "AAAAAAGHn1EgAdQ6mu4=",
+					"_parent": {
+						"$ref": "AAAAAAGHn0ezAMmXIa0="
+					},
+					"name": "CU03-logout"
 				},
 				{
 					"_type": "UMLUseCase",
@@ -14289,9 +14289,9 @@
 										"$ref": "AAAAAAGIO2pVO0xdLH8="
 									},
 									"font": "Arial;10;0",
-									"left": 132.4384765625,
+									"left": 133.5615234375,
 									"top": 117,
-									"width": 91.8203125,
+									"width": 102.162109375,
 									"height": 10,
 									"text": "Module 02 - Messages"
 								},
@@ -14304,7 +14304,7 @@
 									"font": "Arial;10;1",
 									"left": 117,
 									"top": 117,
-									"width": 10.4384765625,
+									"width": 11.5615234375,
 									"height": 10,
 									"text": "uc"
 								}
@@ -14397,7 +14397,7 @@
 									"font": "Arial;10;0",
 									"left": 287,
 									"top": 260.5,
-									"width": 110,
+									"width": 110.6103515625,
 									"height": 22,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIO2qvEU6SJ2w="
@@ -14596,7 +14596,7 @@
 									"font": "Arial;10;0",
 									"left": 293.5,
 									"top": 324.5,
-									"width": 101,
+									"width": 102.265625,
 									"height": 22,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIO2s86U7BiGo="
@@ -14795,7 +14795,7 @@
 									"font": "Arial;10;0",
 									"left": 288.5,
 									"top": 372.5,
-									"width": 115,
+									"width": 116.1572265625,
 									"height": 22,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIO2xNUk7wyTA="
@@ -14991,7 +14991,7 @@
 									"font": "Arial;10;0",
 									"left": 287,
 									"top": 428.5,
-									"width": 109,
+									"width": 110.0439453125,
 									"height": 22,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIO2yVUU8fkd0="
@@ -15178,9 +15178,9 @@
 										"$ref": "AAAAAAGHn0yLcs08eNo="
 									},
 									"font": "Arial;10;0",
-									"left": 204.4384765625,
+									"left": 205.5615234375,
 									"top": 101,
-									"width": 71.2734375,
+									"width": 74.92578125,
 									"height": 10,
 									"text": "Módulo Principal"
 								},
@@ -15193,7 +15193,7 @@
 									"font": "Arial;10;1",
 									"left": 189,
 									"top": 101,
-									"width": 10.4384765625,
+									"width": 11.5615234375,
 									"height": 10,
 									"text": "uc"
 								}
@@ -15435,9 +15435,9 @@
 										"$ref": "AAAAAAGHoQx7py0u12E="
 									},
 									"font": "Arial;10;0",
-									"left": 226.4384765625,
+									"left": 227.5615234375,
 									"top": 76,
-									"width": 70.716796875,
+									"width": 77.15234375,
 									"height": 10,
 									"text": "Módulo Reportes"
 								},
@@ -15450,7 +15450,7 @@
 									"font": "Arial;10;1",
 									"left": 211,
 									"top": 76,
-									"width": 10.4384765625,
+									"width": 11.5615234375,
 									"height": 10,
 									"text": "uc"
 								}
